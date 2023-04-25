@@ -1,0 +1,10 @@
+1. Git 
+	Gone through Basics of Git commands
+
+2. Python
+	Revised some of the topics in python from class Recodings
+	like:
+		List 
+		Tuple
+		Dict
+		
