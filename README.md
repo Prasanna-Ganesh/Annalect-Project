@@ -1,1 +1,3 @@
 # Annalect-Project
+
+### Daily Studies
