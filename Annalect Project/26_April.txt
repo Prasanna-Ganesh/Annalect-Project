@@ -1,0 +1,6 @@
+1. PostgreSQl
+	Creating tables using postgre shell
+	create the objects using pgAdmin
+
+2. Confluence ORAD workspace
+	Gone through List of how to's documentation
