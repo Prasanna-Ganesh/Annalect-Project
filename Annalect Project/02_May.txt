@@ -1,0 +1,5 @@
+1. Logging
+	Gone thorough Logging Levels
+	like Info,Debug,Warning etc.,
+	Handling of Logging Objects
+	Formatting Objects in Logging
