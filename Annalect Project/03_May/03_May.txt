@@ -1,0 +1,12 @@
+1. JSONEncoder
+	went through the documentation of JSONEncoder
+	Understood how to use customized JSONEncoder 
+
+2. Upsert Command
+	Gone through the usage of Upsert Command 
+
+3. In auth.py Learnt about Dataclasses module
+	like dataclass,
+	field and 
+	asdict
+	
