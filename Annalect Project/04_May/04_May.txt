@@ -1,0 +1,10 @@
+1. Cookies
+	I learnt about How to get cookies and pass into the post man but i am not able to get the cookies because front end of the ORAD project 
+
+2. Authentication
+	Types of authentication
+		session
+		Api-Token 
+		ANSid
+
+3. Worked on postman to get the output by passing cookies and Api-Token
