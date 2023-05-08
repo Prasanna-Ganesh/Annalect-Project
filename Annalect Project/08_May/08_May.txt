@@ -1,0 +1,7 @@
+1.Authentication
+	Gone through Types of login methods and 
+	Tried to understand What are the authentications used in the Projects
+	
+2. Debugger
+	Gone through how to use Debugger
+	Completed Set up Debugger in VS code 
