@@ -1,0 +1,7 @@
+1.PostgreSQL
+	gone through Connection and excecution of PostgreSQL in Flask 
+	CRUD operation Using PostgreSQL in Flask
+
+2. integration and installation
+	Installed Ubuntu and
+	installed WSL2 in VS code and integrated WSL2
