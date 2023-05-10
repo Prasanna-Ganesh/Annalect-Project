@@ -1,0 +1,8 @@
+1.Created API for datasources such as
+	post request to create a user data
+	Get request to get all the user
+	Get request to get the single user if we paasing their name
+working on put and delete methods
+
+2. Debugger
+	Tried to understand How to use Debugger on VS code

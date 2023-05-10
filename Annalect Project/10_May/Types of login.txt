@@ -1,0 +1,38 @@
+There are more number of Authentications are there.
+
+Password authentication, Two factor Authentication, multifactor authentication, Token based authentication, Biometric authentication etc.,
+
+In our project we used Three types of Authentication exist
+
+        1. Login/Pass authentication (form submission)
+        2. ANsid query param authentication (<url>?ANSid=...)
+        3. Token authentication (in http header "Api-Token")
+
+1. Login/Pass authentication (form submission)
+	Login user with a login and password, and setup session and it will checks for status code 200, If it is not equals to 200 it returns login error, 
+	Then it's status code is 200 and then it checks if the code is not equal to 1 or the sid is none then also it gives the error like login failed. After that it passed and it stores the value of name, client, email, etc,. 
+	If the login success then only it gives the output as login success with user details this is one of the login type we are using in our project
+
+2. ANsid query param authentication (<url>?ANSid=...)
+	By passind ANsid and clientid in param or session cookies in the Header in postman we can successfully return our output. we written auth_required() as a method name in this methods it accepts two types of authentication like session or Token. 
+	In this first we are checking if session id present or not. Here it first goes into the auth_checks() method here we assigned a variable as info for check_session_from_omni() 
+	Inside this method we are assined a variable for authInfo class inside the class we are havinng some variables. They are success, error, authtype, relogin, redirect, redirect_args(dict). Here success and relogin are bool apart from that all are string. now is the variable we used for calculating time for session time is expired or not. we assigned a variable expires is equals to 0 to check it expired or not. 
+	If the ANsid is not in session it goes into invalidate_session method() it gives all the values of ANsid, expires , admin, name, email, personid, all are none and it returns No session found.
+	Then it check if the time in greater than 0 again it goes inside invalidate_session() and gives the output as session expired.
+	Else then if the success is true in the AuthInfo class then only it will return the info of all the user data
+	Then sesh variable checks the success variable if the auth_type is not allowed then it returns success as false and gives error as auth type not allowed
+it will gives the logger as error.
+	if the relogin is TRUE, it gives the user details in dict format with status code 400 
+
+3. Token authentication (in http header "Api-Token")
+	It is also same like previous one but it checks for the Api Token. By passing Api Token in the Header in postman we can successfully return our output. we written auth_required() as a method name in this methods it accepts two types of authentication like session or Token. 
+	In this first we are checking if the Token. Here it first goes into the auth_checks() method here we assigned a variable as info for check_api_token()
+	Here it the AuthInfo class is assigned with a info variable and it checks the auth secret id configured or not and it request the api token in the header
+	After that if the api token is configured and it has the token importing pylect_infra then requesting for the api token in the header
+	if the Token we return is equals to the configured secret token it gives the output as success is True or else it gives invalid secret api token 
+	if it gives success is True then it goes to authchecks it will return info to the sesh variable in the auth required
+	Then if the success is true in the AuthInfo class then only it will return the info of all the user data
+	Then sesh variable checks the success variable if the auth_type is not allowed then it returns success as false and gives error as auth type not allowed
+it will gives the logger as error.
+	if the relogin is TRUE, it gives the user details in dict format with status code 400  
+	
