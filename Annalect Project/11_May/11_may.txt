@@ -1,0 +1,8 @@
+1. Api for Datasource model
+	Created API for PUT and DELETE method
+
+2. Api for Datasource Field
+	Created API and did CRUD operation for GET, POST, PUT, DELETE methods 
+
+3. Configuration
+	Going through configuration in flask
