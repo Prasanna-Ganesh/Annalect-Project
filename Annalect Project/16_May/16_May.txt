@@ -1,0 +1,2 @@
+1. Created Api for Reportype Datasource Field Mapping
+2. completed Bulk insert, Bulk Update and Bulk Delete for Datasource Model 
