@@ -1,0 +1,7 @@
+1. Data Source Model
+	Completed bulk delete for datasource model
+
+2. Datasource Field Model
+	Implemented Bulk Update, Bulk Insert, and bulk delete on Datasource Field Model
+
+3. Gone through Cascade Delete feature
