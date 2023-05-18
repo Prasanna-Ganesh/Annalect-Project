@@ -1,0 +1,9 @@
+1. ReportType DatasourceField Mapping
+	Completed Bulk Update, Bulk Insert for ReportType DatasourceField Mapping Model 
+	currently working on Bulk delete
+
+2. Exception Handling:
+	worked on exception handling for all models
+
+3. Datasource 
+	working on CASCADE delete feature but i got error on that
