@@ -1,0 +1,4 @@
+1. Flask-Migrate
+	Gone through Flask Migration Documentation
+	working on cascade delete feature to migrate
+	implemented Migration on our Project

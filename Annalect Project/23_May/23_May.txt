@@ -1,0 +1,5 @@
+1. PEP8 standards:
+	went through PEP8 standards Documentation, Created PEP8 standards reports
+
+2. Flask Migration:
+	went through Flask-Migration documentation
